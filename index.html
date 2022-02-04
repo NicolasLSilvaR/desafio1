@@ -16,50 +16,59 @@
         <p><br>Anne Baileys prepara el próximo lanzamiento de su libro
            <br>y quiere hacerte una cordial invitacion suscribirte para</br>
            informarte de la fecha de lanzamiento.</p>
-        <h2>¡primeros 100 suscriptores resibiran un codigo de descuento!</h2>
+     </div>
+     <div class="notice">  
+           <h2>¡primeros 100 suscriptores resibiran un codigo de descuento!</h2>
       </div> 
       <div class="formulario">
       <form action="index.html" method="get">
         <div class="form-line">
+          <p>Genero:</p>
+          <div class="radio-option">
+            <input type="radio" id="Masculino" name="Genero" value="Masculino"> 
+            <label for="Masculino">Masculino</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" id="Femenino" name="Genero" value="Femenino">
+            <label for="Femenino">Femenino</label>
+          
+          </div>
+      </div>
+        
+        <div class="form-line">
           <label for="nombre">Nombre:</label>
           <input name="nombre" id="nombre" placeholder="Nombre apellido" />
         </div>
-
+        
+        <div class="form-line">
+          <label for="edad">Edad:</label>
+          <select name="edad" id="edad">
+            <option value="nada">rango</option>
+            <option value="10-20">10-20</option>
+            <option value="21-30">21-30</option>
+            <option value="31-40">31-40</option>
+            <option value="41-50">41-50</option>
+            <option value="61-70">61-70</option>
+            <option value="71-80">71-80</option>
+          </select>
+      </div>
+       
         <div class="form-line">
           <label for="email">Email:</label>
           <input name="Email" id="email" placeholder="Ejemplo@gmail.com">
         </div>
-       
-      <div class="form-line">
-        <p>Genero</p>
-        <div class="radio-option">
-          <input type="radio" id="Masculino" name="Genero" value="Masculino"> 
-          <label for="Masculino">Masculino</label>
-        </div>
-        <div class="radio-option">
-          <input type="radio" id="Femenino" name="Genero" value="Femenino">
-          <label for="Femenino">Femenino</label>
-        </div>
-    </div>
-            
-        
-    <div class="form-line">
-        <label for="edad">Edad:</label>
-        <select name="edad" id="edad">
-          <option value="nada">rango</option>
-          <option value="10-20">10-20</option>
-          <option value="21-30">21-30</option>
-          <option value="31-40">31-40</option>
-          <option value="41-50">41-50</option>
-          <option value="61-70">61-70</option>
-          <option value="71-80">71-80</option>
-        </select>
-    </div>
+        <ul>
+          <li><a href="#Libreria uno">libreria uno</a></li>
+          <li><a href="#Libreria dos">libreria dos</a></li>
+          <li><a href="Libreria dos">libreria tres</a></li>
+        </ul>
+    
+     
 
 
     <div class="botones">
           <button type="submit">Suscribir</button>
-          <button type="reset">limpiar</button>
+
     </div>
   
 

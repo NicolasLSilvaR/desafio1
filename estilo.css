@@ -7,10 +7,67 @@ body {
      background-repeat: repeat;
      font-size: 20px;
      text-align: center;
- }
+}
 
+img#img-anne {
+     border: 5px solid rgb(236, 231, 231);
+     border-right: 10px solid black;
+     border-bottom: 10px solid black;
+     height: 500px;
+     width: auto; 
 
-img#img-portada {
-     height: min-content;
+}
+div.title{
+     font-family: cursive;
+     text-decoration: initial;
+     
 
+}
+
+div.formulario{
+     width: 500px;
+     margin: auto;
+     background-color: rgb(207, 204, 7);
+     padding: 30px;
+     border-radius: 15px;
+     text-align: left;
+}
+
+button {
+     background-color: rgb(0, 0, 0);
+     color: white;
+     padding: 10px 20px;
+     font-size: 16px;
+}
+div.botones {
+     text-align: center;
+     margin-top: 2.0em;
+}
+
+label{
+     width: 400px;
+     display: inline-block;
+}
+
+input{
+     font-size: 15px;
+     padding: 7px 10px;
+     border: 1px solid brown;
+     border-radius: 5px;
+}
+
+div.form-line {
+     margin-bottom: 15px;
+}
+
+select{
+     padding: 10px 20px;
+     font-size: 15px;
+     border: 1px solid brown;
+     border-radius: 200px;
+}
+ul{
+ text-align: left;
+ margin-left: 18.0em;
+ 
 }
