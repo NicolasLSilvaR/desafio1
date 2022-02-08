@@ -1,0 +1,22 @@
+{
+  "name": "desafio1",
+  "version": "1.0.0",
+  "description": "anne baylis ",
+  "main": "2.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasLSilvaR/desafio1.git"
+  },
+  "author": "nicolas silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasLSilvaR/desafio1/issues"
+  },
+  "homepage": "https://github.com/NicolasLSilvaR/desafio1#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
