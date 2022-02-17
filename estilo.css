@@ -6,20 +6,32 @@ body {
      font-size: 20px;
      text-align: center;
 }
+div#imagen{
+     text-align: center;
+
+}
 
 img#img-anne {
      border: 5px solid rgb(236, 231, 231);
      border-right: 10px solid black;
      border-bottom: 10px solid black;
      height: 500px;
-     width: auto; 
+     text-align:center; 
 
 }
 div.title{
      font-family: roboto;
      text-decoration: initial;
-     
+     text-align: center;
 
+}
+h1{ 
+     text-align: center; 
+}
+
+
+div.notice{
+     text-align: center;
 }
 
 div.formulario{
@@ -64,11 +76,7 @@ select{
      border: 1px solid brown;
      border-radius: 200px;
 }
-ul{
- text-align: left;
- margin-left: 18.0em;
- 
-}
+
 
 p{
      font-family: 'Roboto', sans-serif;
